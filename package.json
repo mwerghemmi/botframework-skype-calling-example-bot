@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/nwhitmont/botframework-skype-calling-example-bot#readme",
   "dependencies": {
+    "botbuilder": "^3.8.3",
     "botbuilder-calling": "^3.0.1",
     "restify": "^4.3.0"
   }
