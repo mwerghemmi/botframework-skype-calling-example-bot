@@ -1,10 +1,14 @@
 {
   "name": "botframework-skype-calling-example-bot",
   "version": "1.0.0",
-  "description": "skype calling bot example for bot framework node sdk",
-  "main": "index.js",
+  "description": "skype calling bot example for Bot Framework Node SDK",
+  "main": "app.js",
+  "engines": {
+    "node": "6.10.2",
+    "npm": "3.10.10"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "repository": {
     "type": "git",
